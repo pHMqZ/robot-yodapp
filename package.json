@@ -1,0 +1,14 @@
+{
+  "name": "yodapp",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados para mobile com Robot + Appium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phillip Marques",
+  "license": "ISC",
+  "dependencies": {
+    "yodapp": "file:"
+  }
+}
