@@ -20,8 +20,15 @@ Clicar no menu lateral
 
     Click Text                  ${START} 
     
-    ${SIDEMENU}     Set Variable       xpath=//android.widget.ImageButton[@content-desc="Open navigation drawer"]
+    ${sideMenu}     Set Variable     xpath=//android.widget.ImageButton[@content-desc="Open navigation drawer"]
 
-    Wait Until Element Is Visible    ${SIDEMENU}    5
+    Wait Until Element Is Visible    ${sideMenu}    5
 
-    Click Element    ${SIDEMENU}
+    Click Element                    ${sideMenu}
+
+    ${menuItem}    Set Variable      xpath=//*[@resource-id="com.qaxperience.yodapp:id/navView"]//*[@text="Formulários"]
+
+    Wait Until Element Is Visible    ${menuItem}    5
+
+    Click Element                    ${menuItem}
+
