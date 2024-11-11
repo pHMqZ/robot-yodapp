@@ -15,7 +15,8 @@ Start session
     ...                 app=${EXECDIR}/app/yodapp-beta.apk
     ...                 uidi=emulator-5554
     ...                 autoGrantPermissions=true
-
+    
+    Wait Until Page Contains    Yodapp
 
 Finish session
 

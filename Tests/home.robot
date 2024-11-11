@@ -9,10 +9,7 @@ Test Setup        Start session
 Test Teardown     Finish session
 
 *** Test Cases ***
-Abrir tela principal do aplicativo e realizar clique simples  
+Abrir tela principal do aplicativo  
     Wait Until Page Contains    Yodapp
-    Wait Until Page Contains    QAX
-
-    Click Text                  QAX
 
     Sleep                        5

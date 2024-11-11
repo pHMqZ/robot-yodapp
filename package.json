@@ -9,6 +9,11 @@
   "author": "Phillip Marques",
   "license": "ISC",
   "dependencies": {
+    "appium": "^2.12.1",
+    "appium-uiautomator2-driver": "^2.34.1",
     "yodapp": "file:"
+  },
+  "devDependencies": {
+    "uiautomator2": "^1.0.2"
   }
 }
