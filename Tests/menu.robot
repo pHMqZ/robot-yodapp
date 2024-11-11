@@ -14,7 +14,7 @@ Test Teardown       Finish session
 ${START}    QAX
 
 *** Test Cases ***
-Clicar no menu lateral
+Teste de clique simples
     
     Wait Until Page Contains    ${START} 
 
@@ -26,9 +26,16 @@ Clicar no menu lateral
 
     Click Element                    ${sideMenu}
 
-    ${menuItem}    Set Variable      xpath=//*[@resource-id="com.qaxperience.yodapp:id/navView"]//*[@text="Formulários"]
+    ${menuItem}    Set Variable      xpath=//*[@resource-id="com.qaxperience.yodapp:id/navView"]//*[@text="Clique em Botões"]
 
     Wait Until Element Is Visible    ${menuItem}    5
 
     Click Element                    ${menuItem}
+    
+    Wait Until Page Contains         Clique simples    5
+    Click Text                       Clique simples
+    Wait Until Page Contains         Botão clique simples
+
+    Click Element                    xpath=//*[@resource-id="com.qaxperience.yodapp:id/short_click"]
+    Wait Until Page Contains         Isso é um clique simples
 
