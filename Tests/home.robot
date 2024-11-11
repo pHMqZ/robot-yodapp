@@ -1,7 +1,5 @@
 *** Settings ***
 
-Library        AppiumLibrary
-
 Resource      ../Resources/Base.resource
 
 Test Setup        Start session

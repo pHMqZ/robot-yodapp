@@ -4,9 +4,14 @@ Documentation        Arquivo principal do projeto de testes automatizados mobile
 Library            AppiumLibrary
 
 
+Resource            ./Components/Menu.resource
+Resource            ./Components/TelaInicial.resource
+Resource            ./Components/TelaElemento.resource
+
 
 
 *** Keywords ***
+
 Start session
     Open Application    http://localhost:4723
     ...                 platformName=Android
@@ -16,9 +21,8 @@ Start session
     ...                 uidi=emulator-5554
     ...                 autoGrantPermissions=true
     
-    Wait Until Page Contains    Yodapp
-
 Finish session
 
     Capture Page Screenshot
     Close Application
+
