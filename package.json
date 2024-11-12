@@ -10,10 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "appium": "^2.12.1",
-    "appium-uiautomator2-driver": "^2.34.1",
     "yodapp": "file:"
   },
   "devDependencies": {
+    "appium-uiautomator2-driver": "^2.45.1",
     "uiautomator2": "^1.0.2"
   }
 }

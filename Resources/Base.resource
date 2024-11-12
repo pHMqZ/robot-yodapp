@@ -20,6 +20,9 @@ Start session
     ...                 app=${EXECDIR}/app/yodapp-beta.apk
     ...                 uidi=emulator-5554
     ...                 autoGrantPermissions=true
+    ...                 adbExecTimeout=60000
+    ...                 androidInstallTimeout=90000    
+    ...                 uiautomator2ServerInstallTimeout=60000
     
 Finish session
 

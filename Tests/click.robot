@@ -22,5 +22,21 @@ Teste de clique simples
     Wait Until Page Contains         Isso é um clique simples
 
 
+Teste de clique longo
+    [Tags]    long
+    
+    Get started
+
+    Navigate to    Clique em Botões
+
+    Go to item     Clique longo    Botão clique simples
+
+    ${locator}    Set Variable    xpath=//*[@resource-id="com.qaxperience.yodapp:id/short_click"]
+
+    ${positions}    Get Element Location             ${locator}   
+
+    Tap With Positions    	         1000    ${${positions}[x], ${positions}[y]}   
+    Wait Until Page Contains         Isso é um clique longo
+
 
 
