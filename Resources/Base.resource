@@ -7,6 +7,7 @@ Library            AppiumLibrary
 Resource            ./Components/Menu.resource
 Resource            ./Components/TelaInicial.resource
 Resource            ./Components/TelaElemento.resource
+Resource            ./Components/Login.resource
 
 
 
