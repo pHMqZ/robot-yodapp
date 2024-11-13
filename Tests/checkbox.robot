@@ -1,6 +1,4 @@
 *** Settings ***
-Documentation        Ações e elementos do menu do aplicativo
-
 
 Resource            ../Resources/Base.resource
 
