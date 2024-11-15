@@ -11,6 +11,6 @@ ${START}    QAX
 *** Keywords ***
 
 Get started
-    Wait Until Page Contains    ${START} 
+    Wait Until Page Contains    ${START}    10
 
     Click Text                  ${START} 
