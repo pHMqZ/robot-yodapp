@@ -9,6 +9,7 @@ Resource            ./Components/TelaInicial.resource
 Resource            ./Components/TelaElemento.resource
 Resource            ./Components/Login.resource
 Resource            ./Components/Cadastro.resource
+Resource            ./Components/Lista.resource
 
 
 
