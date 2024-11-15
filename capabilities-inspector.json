@@ -1,0 +1,9 @@
+{
+  "platformName": "Android",
+  "appium:deviceName": "Android Emulator",
+  "appium:automationName": "UIAutomator2",
+  "appium:app": "C:\\QA\\projects\\robot-yodapp\\app\\yodapp-beta.apk",
+  "appium:udid": "emulator-5554",
+  "appium:autoGrantPermissions": true,
+  "newCommandTimeout": "300"
+}
